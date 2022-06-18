@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(58, 52, 52);
+  box-sizing: border-box;
+}
+
+nav a{
+  font-family:'Big Shoulders Display' ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.grid-container{
+  display: grid;
+  grid-row: 1fr 1fr;
+  grid-column: 1fr 1fr 1fr;
+  gap: 4px;
+  margin: auto;        
+  height: 350px;
+  width: 24cm;
+  grid-template-areas: 
+  'a a b'
+  'a a b'
+  'c d d'
+  'c e e'
+  ;
+}
+.grid-1{
+  background-color: rgb(197, 39, 39);
+  grid-area: a;
+
+}
+.grid-2{
+  background-color: rgb(189, 189, 8);
+  grid-area: b;
+}
+.grid-3{
+  background-color: rgb(48, 133, 48);
+  grid-area: c;
+}
+.grid-4{
+  background-color: blue;
+  grid-area: d;
+}
+.grid-5{
+  background-color: blue;
+  grid-area: e;
+}
+@media screen and (max-width:480px) {
+  .grid-container{
+    grid-template-areas: 
+    'a b '
+    'c d'
+    'c e';
+  }
+  nav a{
+    margin-left: 360px;
+  }
+}

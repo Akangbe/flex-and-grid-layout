@@ -1,0 +1,101 @@
+:root{
+    ---orange: hsl(31, 77%, 52%);
+    ---cyan: hsl(184, 100%, 22%);
+    ---dark-cyan: hsl(179, 100%, 13%);
+}
+body{
+   
+    background-color: hsl(0, 0%, 95%);
+    font-size: 16px;
+    box-sizing: border-box;
+}
+img{
+    padding-top:30px ;
+    margin-left: 30px;
+
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    font-family: 'Big Shoulders Display';
+    font-size: 2rem;
+    text-decoration: none;
+    color:black ;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 2.28rem;
+    font-family: 'Lexend Deca', sans-serif;
+    height:130px ;
+    font-size: 16px;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 2.563rem;
+    font-family: 'Big Shoulders Display';
+    
+}
+button{
+    background-color:  hsl(0, 0%, 95%);
+    margin-top: 20px;
+  padding: 14px;
+  font-size: 15px 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+  align-items: center ;
+}
+button:hover{
+    background-color: transparent;
+    border: 2.5px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    transition: all 500ms;
+} 
+.main-1{
+  
+    width: 87.75vw;
+    margin: 5.438rem auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.container-1{
+    background-color: var(---orange);
+    padding: 3.125rem;
+}
+.btn-1{
+    color: var(---orange);  
+}
+.container-2{
+    background-color: var(---cyan);
+    padding: 3.125rem;
+}
+.btn-2{
+    color: var(---cyan);
+}
+.container-3{
+    background-color: var(---dark-cyan);
+    padding: 3.125rem;
+}
+.btn-3{
+    color: var(---dark-cyan);
+}
+@media screen and (min-width:1048px) {
+    .main-1{
+        width: 920px;
+    }  
+}
+@media screen and (min-width:718px) {
+    .main-1
+    .button{
+        display: inline-block;
+    }
+}
+@media screen and (min-width:720px) {
+    .main-1
+    {
+        display: flex;
+
+    }
+}
