@@ -1,2 +1,2 @@
 # flex-and-grid-layout
-##LINK TO HOSTED PAGE; https://us04web.zoom.us/j/78925910423?pwd=SmdVRkJhb2ZNbXhmbTl4TG0xanJUZz09
+##LINK TO HOSTED PAGE; https://akangbe.github.io/pratice/Zuri%20Task%20on%20Flex%20layout/
